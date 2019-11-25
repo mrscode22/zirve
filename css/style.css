@@ -89,6 +89,14 @@ div.IMG:nth-child(6) {
 
 /*deneme*/
 
+.glyphicon {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    z-index: 20;
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
 }
@@ -108,14 +116,11 @@ div.IMG:nth-child(6) {
 }
 
 .header {
-    /*position: relative;
-    float: left;*/
-    background-color: #4a5159;
+    background-color: #fbd335db;
 }
 
-.navigation-bar {
-    /*position: relative;
-    float: left;*/
+.navbar-nav {
+    margin-left: auto !important;
 }
 
 .carousel {
@@ -175,7 +180,7 @@ img {
 /* style.css | file:///D:/Acoding/zirvehidrolik/css/style.css */
 
 .navigation-bar {
-    background: #fbd335db;
+    background: #4a5159;
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
