@@ -1,0 +1,202 @@
+/*deneme*/
+
+.wrapper {
+    position: relative;
+    flex-grow: 1;
+    margin: auto;
+    max-width: 1200px;
+    max-height: 1200px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2vmin;
+    justify-items: center;
+    align-items: center;
+    height: 500px;
+}
+
+.IMG {
+    z-index: 1;
+    grid-column: span 2;
+    width: 200px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: scale(1);
+    transition: all .25s;
+    background-color: #4a51595e;
+    height: 200px;
+    position: absolute;
+    display: flex;
+}
+
+.IMG:hover {
+    width: 300px;
+    height: 300px;
+    background-color: #4a5159;
+}
+
+div.container-fluid:nth-child(5) {
+    position: relative;
+    height: 500px;
+}
+
+.IMG p {
+    color: #fff;
+    margin: auto;
+}
+
+
+/* Eleman | file:///D:/Acoding/zirvehidrolik/index.html# */
+
+div.IMG:nth-child(1) {
+    margin-right: 44.4cm;
+}
+
+
+/* Eleman | file:///D:/Acoding/zirvehidrolik/index.html# */
+
+div.IMG:nth-child(2) {
+    margin-right: 33.5cm;
+}
+
+
+/* Eleman | file:///D:/Acoding/zirvehidrolik/index.html# */
+
+div.IMG:nth-child(3) {
+    margin-left: -22.4cm;
+}
+
+
+/* Eleman | file:///D:/Acoding/zirvehidrolik/index.html# */
+
+div.IMG:nth-child(5) {
+    margin: 7.6cm 2cm 2cm -37cm;
+}
+
+
+/* Eleman | file:///D:/Acoding/zirvehidrolik/index.html# */
+
+div.IMG:nth-child(4) {
+    margin: 7.5cm 2cm 2cm -14.9cm;
+}
+
+
+/* Eleman | file:///D:/Acoding/zirvehidrolik/index.html# */
+
+div.IMG:nth-child(6) {
+    margin: 7.5cm 2cm 2cm -26cm;
+}
+
+
+/*deneme*/
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+@media print {
+    .container {
+        width: auto;
+    }
+}
+
+.phone {
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 100px;
+}
+
+.header {
+    /*position: relative;
+    float: left;*/
+    background-color: #4a5159;
+}
+
+.navigation-bar {
+    /*position: relative;
+    float: left;*/
+}
+
+.carousel {
+    /*position: relative;
+    float: left;*/
+}
+
+.services {
+    /*position: relative;
+    float: left;*/
+    background-color: #fbd335db;
+}
+
+.services-box {
+    /*position: relative;
+    float: left;*/
+    background-color: #ffffff;
+}
+
+
+/* bootstrap.min.css | file:///D:/Acoding/zirvehidrolik/css/bootstrap.min.css */
+
+.carousel {
+    width: 82%;
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    height: 460px;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        /* justify-content: flex-start; */
+        justify-content: center;
+        margin: ;
+        width: 1140px !important;
+        display: flex;
+        position: relative;
+        float: left;
+    }
+}
+
+.container-fluid {
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    margin: 0px auto;
+}
+
+.navbar {
+    /* padding: .5rem 1rem; */
+    padding: 1.2rem 1rem;
+}
+
+
+/* style.css | file:///D:/Acoding/zirvehidrolik/css/style.css */
+
+.navigation-bar {
+    background: #fbd335db;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin: ;
+    max-width: 100% !important;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Eleman | file:///D:/Acoding/zirvehidrolik/index.html */
+
+#carouselExampleIndicators {
+    margin: 50px auto;
+}
+
+.rowBoxs-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+}
