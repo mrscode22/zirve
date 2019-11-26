@@ -1,3 +1,54 @@
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+.navbar-a {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 30px;
+    line-height: 100px;
+    height: 100px;
+    display: block;
+    font-family: arial;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #fbd335db;
+    transition: .5s;
+    z-index: -1;
+}
+
+.navbar-a:hover:before {
+    height: 100%;
+}
+
+a:hover {
+    color: #000 !important;
+}
+
+
 /*deneme*/
 
 .wrapper {
@@ -121,6 +172,7 @@ div.IMG:nth-child(6) {
 
 .navbar-nav {
     margin-left: auto !important;
+    margin-right: 0 !important;
 }
 
 .carousel {
@@ -173,7 +225,7 @@ img {
 
 .navbar {
     /* padding: .5rem 1rem; */
-    padding: 1.2rem 1rem;
+    padding: 0rem 1rem;
 }
 
 
@@ -204,4 +256,49 @@ img {
     justify-content: center;
     width: 100%;
     padding: 40px;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    background: #4a5159;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.social {
+    color: #ccc;
+    width: 120px;
+    padding-top: 20px;
+    margin: 0 auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.social .fab {
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.footer-box {
+    max-width: 100% !important;
+}
+
+.social .fab:hover {
+    transform: scale(1.5);
+}
+
+.footer-text {
+    color: #ccc;
+    width: 800px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
 }
